@@ -1,0 +1,15 @@
+*{
+    margin: 2px;
+    background-color:#14549C;
+    text-align:center;
+    color: white;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    margin: 5px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+

@@ -1,0 +1,6 @@
+{
+  "name": "bbva-graphics",
+  "short_name": "bbva-graphics",
+  "start_url": "/",
+  "display": "standalone"
+}

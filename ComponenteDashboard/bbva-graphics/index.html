@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>bbva-graphics</title>
+    <meta name="description" content="bbva-graphics description">
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- See https://goo.gl/OOhYW5 -->
+    <link rel="manifest" href="/manifest.json">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type='text/javascript' src="./mocks.js"></script>
+      
+<script type="text/javascript" src="./mocksBar.js"></script>
+  
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <script type="module" src="/src/bbva-graphics-app/bbva-graphics-app.js" crossorigin></script>
+  </head>
+  <body>
+    <h1>Invierte conmigo BBVA</h1>
+    <h2>Analisis personalizado </h2>
+  <div class="container">
+    <div class="item">
+    <div id="barchart_values" style="width: 100%; height: 100%;"></div>
+    </div>
+    <div class="item">
+      <bbva-graphics-app></bbva-graphics-app>
+    </div>
+  </div>
+  </body>
+</html>
+
+

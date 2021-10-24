@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>mybbva-app</title>
+    <meta name="description" content="mybbva-app description">
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <script type="module" src="/src/mybbva-app-app/mybbva-app-app.js" crossorigin></script>
+    <script type="module" src="/src/mybbva-app-app/iron-button.js" crossorigin></script>
+    <script type="module" src="/src/mybbva-app-app/on-load.js" crossorigin></script>
+
+  </head>
+  <body>
+
+    <header>
+    <img src="./src/images/myImage.jpg" alt="Foto Bbva" width="100%">
+    </header>
+    
+    <div class="container">
+      <h1>Bienvenido a</h1> 
+      <h2>Inviertiendo juntos BBVA</h2>
+
+      <mybbva-app-app prop1="Usuario"></mybbva-app-app>
+      <mybbva-app-app  prop1="Contraseña" type="password"></mybbva-app-app>
+
+      <login-button></login-button>
+
+      <on-load></on-load>
+    </div>
+    
+    <footer>
+      <img src="./src/images/BBVA_.png" width="100%" height="10%" alt="">
+    </footer>
+
+  </body>
+</html>
